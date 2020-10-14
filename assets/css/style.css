@@ -145,59 +145,26 @@ input[type="checkbox"]{
 } */
 
 .about{
-  background-color: #f7f7f7;
-  position: relative;
+  width: 100%;
+  margin: 0 0 0 0;
+  padding: 90px 0 90px 25px;
+  background-color: #00587a;
+  color: white;
 }
 
 .heading{
-  width: 60%;
-  margin: 100px 30px;
-  padding: 100px 100px;
-  position: absolute;
+  width: 50%;
 }
 
 .heading h1{
   font-size: 60px;
   font-family: 'DM Sans', sans-serif;
 }
-
-.flip-card {
-  background-color: transparent;
-  width: 550px;
-  height: 550\px;
-  perspective: 1000px;
-  position: absolute;
-  left: 1000px;
-  top: 200px;
-}
-
-.flip-card-inner {
-  position: relative;
+.footer-logo{
+  height: 80px;
   width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-}
-
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-}
-
-.flip-card-front {
-  background-color: transparent;
-  color: black;
-}
-
-.flip-card-back {
-  background-color: dodgerblue;
+  background: #0f3057;
+  padding: 20px 0 0 0;
   color: white;
-  transform: rotateY(180deg);
+  text-align: center;
 }

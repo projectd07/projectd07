@@ -35,9 +35,10 @@
       background: #111;
       height: 100vh;
       width: 100%;
-      text-align: center;
+      text-align: left;
       display: block;
       transition: all 0.3s ease;
+      z-index: 1;
     }
     #click:checked ~ ul{
       left: 0;
@@ -63,14 +64,38 @@
     }
 
     .top-wrapper h1 {
-      font-size: 30px;
-      line-height: 30px;
-    }
-    .heading {
-      width:25%;
+      font-size: 36px;
     }
 
     .top-wrapper img{
       float: left;
+    }
+
+    .heading-top{
+      padding-right: 20px;
+      position: absolute;
+      z-index: 0;
+    }
+
+    .top-wrapper{
+      position: relative;
+    }
+
+    .top-wrapper img{
+      position: absolute;
+      z-index: 999;
+      left: 100px;
+      top: 400px;
+      width: 210px;
+      height:200px;
+      z-index: 0;
+    }
+
+    .about{
+      width: 100%;
+      margin: 0px 0 0px 0;
+      padding: 90px 0 90px 25px;
+      background-color: #00587a;
+      color: white;
     }
 }
